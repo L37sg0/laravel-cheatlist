@@ -65,6 +65,7 @@ cheatlist for laravel installation
     
     # a2ensite laravel.conf - // enables the new conf file
     # a2dissite 000-default.conf - // disables the old conf file
+    # sudo a2enmod rewrite - // enables rewrite mode on the server
     # sudo service apache2 restart - // restarts the apache server
 
 # Installing npm packages to laravel app and running npm server
