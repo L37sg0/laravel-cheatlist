@@ -1,0 +1,15 @@
+git clone https://github.com/L37sg0/appName
+
+cd appName
+
+composer install
+
+cp .env.example .env
+
+php artsan key:generate
+
+nano .env
+
+set DB, user, pass
+
+test - php artisan serve
