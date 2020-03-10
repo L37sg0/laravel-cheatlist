@@ -12,4 +12,17 @@ nano .env
 
 set DB, user, pass
 
+edit app/Providers/AppServiceProvider:
+
+/*
+use Illuminate\Support\Facades\Schema;
+
+public function boot()
+{
+    Schema::defaultStringLength(191);
+}
+*/
+
+php artisan migrate
+
 test - php artisan serve
